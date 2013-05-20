@@ -1,0 +1,405 @@
+<section id="feature_slider" class="">
+        <!-- 
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+            
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
+
+            For the backgrounds, you can combine from the bgs folder :D
+        -->
+        <article itemscope itemtype="http://schema.org/CreativeWork" class="slide" id="showcasing" style="background: url('assets/backgrounds/landscape.png') repeat-x top center;">
+            <img itemprop="image" class="asset left-30 sp600 t120 z1" src="assets/slides/scene1/macbook.png" />
+            <div itemprop="name" class="info">
+                <h2 itemprop="keywords">Diseño web a medida.</h2>
+            </div>
+            <div itemprop="about" class="info">
+                <p>El diseño web es una actividad que consiste en la planificación, diseño e implementación de sitios web.</p>
+                <span>
+                    <a id="buton" class="btn btn-primary" href="#"> Mira nuestros trabajos </a>
+                </span>
+            </div>
+        </article>
+        <article class="slide" id="ideas" style="background: url('assets/backgrounds/aqua.jpg') repeat-x top center;">
+            <div class="info">
+                <h2>Nos encanta convertir ideas en cosas bonitas..</h2>
+            </div>
+            <img itemprop="image" class="asset left-480 sp600 t260 z1" src="assets/slides/scene2/left.png" />
+            <img itemprop="image" class="asset left-210 sp600 t213 z2" src="assets/slides/scene2/middle.png" />
+            <img itemprop="image" class="asset left60 sp600 t260 z1" src="assets/slides/scene2/right.png" />
+        </article>
+        <article class="slide" id="tour" style="background: url('assets/backgrounds/color-splash.jpg') repeat-x top center;">
+            <img itemprop="image" class="asset left-472 sp650 t210 z3" src="assets/slides/scene3/ipad.png" />
+            <img itemprop="image" class="asset left-365 sp600 t270 z4" src="assets/slides/scene3/iphone.png" />
+            <img itemprop="image" class="asset left-350 sp450 t135 z2" src="assets/slides/scene3/desktop.png" />
+            <img itemprop="image" class="asset left-185 sp550 t220 z1" src="assets/slides/scene3/macbook.png" />
+            <div class="info">
+                <h2>El diseño web adaptativo o adaptable</h2>
+                <a itemprop="url" href="features.html">Ver más</a>
+            </div>
+        </article>
+        <article class="slide" id="responsive" style="background: url('assets/backgrounds/indigo.jpg') repeat-x top center;">
+            <img itemprop="image" class="asset left-472 sp600 t120 z3" src="assets/slides/scene4/html5.png" />
+            <img itemprop="image" class="asset left-190 sp500 t120 z2" src="assets/slides/scene4/css3.png" />
+            <div class="info">
+                <h2>
+                    <strong>HTML5 & CSS3</strong> 
+                    Diseño Web Responsive
+                </h2>                
+            </div>
+        </article>        
+    </section>
+
+    <div id="showcase">
+        <div class="container">
+            <div class="section_header">
+                <h3>Nuestros Servicios</h3>
+                
+            </div>            
+            <div class="row feature_wrapper">
+                <!-- Features Row -->
+                <div class="features_op1_row">
+                    <!-- Feature -->
+                    <div class="span4 feature first">
+                        <div class="img_box">
+                            <a href="javascript:scrollToElement('features');">
+
+                                <img itemprop="image" src="assets/service1.png">
+                                <span class="circle"> 
+                                    <span class="plus">&#43;</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h6>Diseño web a medida</h6>
+                            <p>                     
+                              El diseño web es una actividad que consiste en la planificación, diseño e implementación de sitios web. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="span4 feature">
+                        <div class="img_box">
+                            <a itemprop="url" href="javascript:scrollToElement('seo');">
+                                <img itemprop="image" src="assets/service2.png">
+                                <span class="circle"> 
+                                    <span class="plus">&#43;</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h6>SEO</h6>
+                            <p>
+                                Optimización para buscadores, o SEO, busca diseño web a medida en google y mira que página te sale la primera.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="span4 feature last">
+                        <div class="img_box">
+                            <a itemprop="url" href="javascript:scrollToElement('in_pricing');">
+ 
+                                <img itemprop="image" src="assets/service3.png">
+                                <span class="circle"> 
+                                    <span class="plus">&#43;</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h6>Redesign</h6>
+                            <p>
+                                Rediseñamos tu página web para que tenga un diseño actual e inovador. No te quedes atras.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="features">
+        <div class="container">
+            <div class="section_header">
+                <h3>Características</h3>
+            </div> 
+            <div class="row feature">
+                <div class="span6">
+                    <img itemprop="image" src="assets/showcase1.png" />
+                </div>
+                <div class="span6 info">
+                    <h3>
+                        <img itemprop="image" src="assets/features-ico1.png" />
+                        Diseño web visible para todos los dispositivos
+                    </h3>
+                    <p>
+                        El diseño web adaptativo o adaptable (en inglés, Responsive Web Design) es una técnica de diseño y desarrollo web que mediante el uso de estructuras e imágenes fluidas, así como de media-queries en la hoja de estilo CSS, consigue adaptar el sitio web al entorno del usuario.
+                    </p>
+                </div>
+            </div>
+            <div class="row feature ss">
+                <div class="span6 info">
+                    <h3>
+                        <img itemprop="image" src="assets/features-ico2.png" />
+                        Diseño web con página Blog incluido
+                    </h3>
+                    <p>
+                        El weblog es una publicación online de historias publicadas con una periodicidad muy alta que son presentadas en orden cronológico inverso, es decir, lo último que se ha publicado es lo primero que aparece en la pantalla.
+                    </p>
+                </div>
+                <div class="span6">
+                    <img itemprop="image" src="assets/showcase2.png" class="pull-right" />
+                </div>
+            </div>
+            <div id="seo" class="row feature ss">
+                <div class="span6">
+                    <img itemprop="image" src="assets/showcase3.png" />
+                </div>
+                <div class="span6 info">
+                    <h3>
+                        <img itemprop="image" src="assets/features-ico3.png" />
+                        Optimización para buscadores, o SEO
+                    </h3>
+                    <p>
+                        El objetivo es que su sitio esté en la primera página de respuestas de los buscadores.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Pricing Option -->
+    <div id="in_pricing">
+        <div class="container">
+            <div class="section_header">
+                <h3>Precios diseño web</h3>
+            </div>
+
+            <div class="row charts_wrapp">
+                <!-- Plan Box -->
+                <div class="span4">
+                    <div class="plan">
+                        <div class="wrapper">
+                            <h3>Básico - desde:</h3>
+                            <div class="price">
+                                <span class="dollar">€</span> 
+                                <span class="qty">450</span> 
+                            </div>
+                            <div class="features">
+                            	<p>Página web sencilla o básica o el rediseño de la suya.</p>
+                                <p>
+                                    <strong>10</strong>
+                                    Secciones / subpáginas
+                                </p>
+                                <p>
+                                    <strong>1 año</strong>
+                                    Dominio
+                                </p>
+                                <p>
+                                    <strong>1 año</strong>
+                                    Alojamiento / espació ∞
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Cuentas de correo / espació ∞
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Cuentas de ftp / espació ∞
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Formulario contacto
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Aviso legal
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Redes Sociales
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Galería de imágenes
+                                </p>
+                            </div>
+                            <a itemprop="url" class="order" href="pricing.html">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan Box -->
+                <div class="span4 pro">
+                    <div class="plan">
+                        <div class="wrapper">
+                            <img itemprop="image" class="ribbon" src="assets/badge.png">
+                            <h3>Pro - desde:</h3>
+                            <div class="price">
+                                <span class="dollar">€</span> 
+                                <span class="qty">900</span> 
+                            </div>
+                            <div class="features">
+                            	<p>
+                                    <strong>1</strong>
+                                    Diseño web adaptativo
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Optimización para buscadores, o SEO - básico
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Secciones / subpáginas
+                                </p>
+                                <p>
+                                    <strong>1 año</strong>
+                                    Dominio
+                                </p>
+                                <p>
+                                    <strong>1 año</strong>
+                                    Alojamiento / espació ∞
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Cuentas de correo / espació ∞
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Cuentas de ftp / espació ∞
+                                </p>
+                                <p>
+                                    <strong>1</strong>
+                                    Blog
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Formulario contacto
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Mapa del sitio
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Aviso legal
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Redes Sociales
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Galería de imágenes
+                                </p>
+                            </div>
+                            <a itemprop="url" class="order" href="pricing.html">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan Box -->
+                <div class="span4 standar">
+                    <div class="plan">
+                        <div class="wrapper">
+                            <h3>Tienda OnLine - desde:</h3>
+                            <div class="price">
+                                <span class="dollar">€</span> 
+                                <span class="qty">1200</span> 
+                            </div>
+                            <div class="features">
+                                <p>
+                                    <strong>*</strong>
+                                    Optimización para buscadores, o SEO - básico
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Secciones / subpáginas
+                                </p>
+                                <p>
+                                    <strong>50</strong>
+                                    Productos
+                                </p>
+                                <p>
+                                    <strong>1 año</strong>
+                                    Dominio
+                                </p>
+                                <p>
+                                    <strong>1 año</strong>
+                                    Alojamiento / espació ∞
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Cuentas de correo / espació ∞
+                                </p>
+                                <p>
+                                    <strong>∞</strong>
+                                    Cuentas de ftp / espació ∞
+                                </p>
+                                <p>
+                                    <strong>1</strong>
+                                    Blog
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Formulario contacto
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Mapa del sitio
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Aviso legal
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Redes Sociales
+                                </p>
+                                <p>
+                                    <strong>*</strong>
+                                    Galería de imágenes
+                                </p>
+                            </div>
+                            <a itemprop="url" class="order" href="pricing.html">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>
+                <strong>Mantenimiento</strong>
+                40€ <span class="month">/mes (1 hora de mantenimiento mensual despues de que este terminado el proyecto, ampliable a las necesidades del cliente)</span><br>
+                Consultar packs de horas y contratos anuales con un precio más bajo.
+            </p>
+        </div>
+    </div>
+
+    <div id="clients">
+        <div class="container">
+            <div class="section_header">
+                <h3>Clientes</h3>
+            </div>
+            <div class="row">
+                <div class="span2 client">
+                    <div class="img client1"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client2"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client3"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client1"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client2"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
